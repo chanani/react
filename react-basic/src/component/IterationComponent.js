@@ -22,7 +22,7 @@ function IterationComponent() {
                 { id: 3, title: "ccc123" },
               ];
 
-  const result2 = list.map((item, index) => <option key={item.id}>{item['title']}</option>)
+  const result2 = list.map(item => <option key={item.id}>{item['title']}</option>)
   
 
   return (
