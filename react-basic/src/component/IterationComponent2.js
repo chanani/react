@@ -28,7 +28,6 @@ function IterationComponent2(){
   // 5. 삭제이벤트 - 삭제는 id가 필요함
   const handleRemove = (id) => {
     
-
     // return에 true가 걸린 요소만 새로운 배열을 만듬
     // const result = list.filter(item => item.id !== id);
     const result = list.filter((item, index) => {
